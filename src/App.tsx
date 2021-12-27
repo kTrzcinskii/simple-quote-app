@@ -34,7 +34,7 @@ export const App: React.FC = () => {
       </div>
       <div className='button-container'>
         <a
-          href={`twitter.com/intent/tweet?text=${encodeURIComponent(
+          href={`https://www.twitter.com/intent/tweet?text=${encodeURIComponent(
             `"${quote}" - ${author}`
           )}`}
           id='tweet-quote'
